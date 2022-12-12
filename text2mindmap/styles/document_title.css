@@ -1,0 +1,41 @@
+.document-title-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	height: 100%;
+	padding-left: 10px;
+	padding-right: 3px;
+}
+
+.document-title-input {
+	text-overflow: ellipsis;
+	width: 140px;
+}
+
+.document-title-mirror {
+	display: none;
+	white-space: pre;
+}
+
+.document-title-input,
+.document-title-mirror {
+	background-color: inherit;
+	border: none;
+	font-size: 1.15em;
+	color: white;
+	padding: 2px 5px 2px 7px;
+}
+
+.document-title-input:hover {
+	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+	margin-bottom: -1px;
+}
+
+.document-title-input:focus {
+	border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+	margin-bottom: -1px;
+	outline: none;
+}

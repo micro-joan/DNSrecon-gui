@@ -1,0 +1,12 @@
+#viewer-pane {
+	height: 100%;
+	width: 50%;
+	display: inline-block;
+	top: 0;
+    overflow: hidden;
+}
+
+#viewer-container {
+	height: 100%;
+	display: flex;
+}

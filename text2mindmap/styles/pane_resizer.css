@@ -1,0 +1,54 @@
+#dragbar {
+	cursor: col-resize;
+	width: 6px;
+	float: left;
+	height: 100%;
+	background: #d3d3d3;
+	background: rgba(0, 0, 0, 0.1);
+	background: -webkit-linear-gradient(right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0));
+	background: -o-linear-gradient(right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0));
+	background: -moz-linear-gradient(right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0));
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.0));
+}
+
+#dragbar:hover,
+#dragbar:active {
+	background: #c0c0c0;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.collapse-button {
+	position: relative;
+	width: 0;
+	height: 0;
+	top: 45%;
+}
+
+.collapse-button > div {
+	position: absolute;
+	z-index: 10;
+	color: black;
+	width: 25px;
+	cursor: pointer;
+	padding: 20px 0;
+	border-radius: 3px;
+	opacity: 0.3;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+}
+
+.collapse-button > div svg {
+	vertical-align: middle;
+    text-align: center;
+	width: 100%;
+}
+
+.collapse-button > div:hover {
+	background-color: #bbb;
+	opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+}
+
+.collapse-button > div:active {
+	opacity: 1;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}

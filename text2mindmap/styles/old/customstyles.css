@@ -1,0 +1,16 @@
+#stageHolder:hover{
+	cursor:move;
+}
+#textArea{
+	margin: 0px;
+	padding: 3px 2px 0px 4px;
+	border: 0px solid white;
+	height: 400px;
+	width: 289px;
+	line-height: 140%;
+	font-size: 12px;
+	font-family: Helvetica, "Helvetica Neue", Arial, Verdana;
+	color: #101010;
+	overflow: auto;
+	white-space: pre;
+}

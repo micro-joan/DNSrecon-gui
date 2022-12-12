@@ -1,0 +1,130 @@
+.navbar {
+	font-family: sans-serif;
+	height: 50px;
+	background-color: #424242;
+	font-size: 15px;
+	width: 100%;
+	position: relative;
+}
+
+.navbar > ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	height: 100%;
+}
+
+.navbar-item {
+	float: left;
+	height: 100%;
+}
+
+.navbar-icon {
+	font-size: 35px;
+    float: right;
+    color: white;
+    padding-right: 10px;
+    padding-left: 5px;
+    padding-top: 6px;
+	box-sizing: border-box;
+    display: inline-block;
+}
+
+.navbar-button {
+	min-width: 60px;
+}
+
+.navbar-button > a {
+	padding: 0 12px;
+}
+
+.navbar-button:hover {
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+.navbar-item a {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-decoration: none;
+	height: 100%;
+	color: white;
+}
+
+.dropdown-content {
+	z-index: 1000;
+	display: none;
+	position: absolute;
+	padding: 5px 0;
+	list-style: none;
+	background-color: white;
+	min-width: 200px;
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+	border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.dropdown-content li:not(.dropdown-divider) {
+	height: 28px;
+	font-size: 14px;
+}
+
+.dropdown-content li:not(.dropdown-divider):hover {
+	background-color: #2780e3;
+}
+
+.dropdown-content svg {
+	padding-right: 7px;
+	width: 1.28571429em;
+}
+
+.dropdown-content a {
+	color: #333333;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	padding-left: 9px;
+}
+
+.dropdown-content a:hover {
+	color: white;
+}
+
+.dropdown-content a:hover .dropdown-shortcut {
+	color: white;
+}
+
+.dropdown-divider {
+	background-color: #ebebeb;
+    height: 1px;
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+.dropdown-shortcut {
+	color: #aaa;
+	position: absolute;
+	right: 20px;
+}
+
+.navbar-logo {
+	float: right;
+	margin-right: 25px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navbar-dropdown > a:after {
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 4px solid white;
+	margin-left: 5px;
+}

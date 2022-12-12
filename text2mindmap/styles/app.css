@@ -1,0 +1,191 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+.wrapper {
+	height: 100%;
+	overflow: hidden;
+}
+
+#pane-container {
+	/* 100% minus the height of the navbar */
+	height: calc(100% - 50px);
+	width: 100%;
+	overflow: hidden;
+}
+
+.modal-container {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#uploader {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: red;
+}
+
+/* Buttons */
+.button {
+	border: 1px solid #ccc;
+	background-color: white;
+	color: black;
+	height: 3em;
+	border-radius: 3px;
+	outline: 0;
+	cursor: pointer;
+	font-size: 0.9em;
+	padding: 0 13px;
+}
+
+.button:hover {
+	background-color: #e6e6e6;
+}
+
+.button:active {
+	background-color: #d4d4d4;
+}
+
+.button.dark {
+	background-color: #424242;
+	color: white;
+	border: 1px solid #323232;
+}
+
+.button.dark:hover {
+	background-color: #323232;
+}
+
+.button.dark:active {
+	background-color: #222222;
+}
+
+.button svg {
+	margin-right: 7px;
+}
+
+/* Forms */
+form {
+	margin-top: 20px;
+}
+
+form .form-group + .form-group {
+	margin-top: 1em;
+}
+
+.form-group {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+
+form .control-label {
+	padding: 0.5em 0;
+	font-weight: bold;
+	display: inline-block;
+	text-align: right;
+	margin-right: 1em;
+	width: 10em;
+	min-width: 5em;
+	color: #333;
+	-webkit-box-flex: 0.5;
+	-ms-flex: 0.5;
+	flex: 0.5;
+}
+
+form label {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	min-width: 0;
+}
+
+form input[type="text"],
+form input[type="number"]
+{
+	display: flex;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	margin-right: 3em;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	padding: 0.5em;
+	font-size: 1em;
+	height: 1em;
+	min-width: 0;
+}
+
+form .form-div {
+	flex: 1;
+	margin-right: 3em;
+	padding: 0.5em;
+}
+
+form .minicolors-swatch {
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+.checkbox-control {
+	display: flex;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	margin-right: 3em;
+	min-width: 0;
+}
+
+form input[type="checkbox"] {
+	height: 2em;
+	width: 1.2em;
+	margin: 0;
+	margin-top: 0.4em;
+	margin-right: 0.7em;
+}
+
+form .form-group.smaller-top-margin {
+	margin-top: 5px;
+}
+
+form input[type="checkbox"] + label {
+	padding-top: 0.45em;
+}
+
+form select {
+	min-width: 0;
+	display: inline-block;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	margin-right: 3em;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	padding: 0 0.5em;
+	font-size: 1em;
+	height: 2em;
+	background-color: white;
+}
+
+.no-selection {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#file-input {
+	display: none;
+}
