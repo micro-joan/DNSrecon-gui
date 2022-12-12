@@ -41,7 +41,7 @@ After executing the application launcher you need to have all the components ins
 
 # Use
 
-When the tool is ready to use the same installer will give you a URL that you must put in the browser <b>in a private window<(b> so every time you do a search you will have to open a new window in private or clear your browser cache to refresh the graphics.
+When the tool is ready to use the same installer will give you a URL that you must put in the browser <b>in a private window</b> so every time you do a search you will have to open a new window in private or clear your browser cache to refresh the graphics.
 
 # Tools
 <table>
